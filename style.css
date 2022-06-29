@@ -1,0 +1,38 @@
+.container div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+  }
+
+.ampliar {
+    background-color: blue;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.container {
+  background-color: aquamarine;
+  display: flex;
+  max-width: 700px;
+  max-height: 700px;
+  width: 700px;
+  height: 500px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pequenos {
+  width: 100px;
+  order: 2;
+}
+
+.grande { 
+  width: 700px;
+  height: 300px;
+  order: 1;
+}
